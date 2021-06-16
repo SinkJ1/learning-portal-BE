@@ -1,6 +1,6 @@
-﻿namespace LearningPortal.Domain
+﻿namespace LearningPortal.Domain.Entities
 {
-    class Question
+    public class Question
     {
         public int Id { get; set; }
         public string Ask { get; set; }
